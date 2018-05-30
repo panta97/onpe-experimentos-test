@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="VisorTestSuite" parallel="false">
+	<test name="DistritoWebDriverTest">
+		<parameter name="navegador" value="firefox"/>
+		<parameter name="remoto" value="0"/>
+		<parameter name="rutaInsertarArchivo" value="C:\Data\DataDistritos\DataInsertarDistrito.xls"/>
+		<parameter name="rutaEditarArchivo" value="C:\Data\DataDistritos\DataEditarDistrito.xls"/>
+		<parameter name="rutaEliminarrArchivo" value="C:\Data\DataDistritos\DataEliminarDistrito.xls"/>
+		<classes>
+			<class name="pe.com.test.seleniumwd.DistritoWebDriverTest" />
+		</classes>
+	</test>
+</suite> 
