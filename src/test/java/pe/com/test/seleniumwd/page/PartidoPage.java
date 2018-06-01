@@ -5,10 +5,10 @@ import org.openqa.selenium.WebDriver;
 
 import pe.com.test.seleniumwd.driver.OnpeDriver;
 
-public class DistritoPage {
+public class PartidoPage {
 
 	//Insertar
-	private By botonDistritos = By.id("btnDistrito");
+	private By botonPartidos = By.id("btnPartido");
 	private By botonNuevo = By.id("btnNuevo");
 	private By cajaNombre = By.id("nombre");
 	private By botonGuardar = By.id("btnGuardar");
@@ -22,12 +22,12 @@ public class DistritoPage {
 	private By botonEliminarConfirmar=By.id("btnEliminar");
 	private WebDriver webDriver = null;
 	
-	public DistritoPage(WebDriver webDriver) {
+	public PartidoPage(WebDriver webDriver) {
 		this.webDriver = webDriver;
 	}
 
-	public String insertarDistrito(String nombre) throws Exception {
-		webDriver.findElement(botonDistritos).click();
+	public String insertarPartido(String nombre) throws Exception {
+		webDriver.findElement(botonPartidos).click();
 		Thread.sleep(2000);
 		webDriver.findElement(botonNuevo).click();
 		Thread.sleep(2000);
@@ -37,8 +37,8 @@ public class DistritoPage {
 		Thread.sleep(2000);
 		return webDriver.findElement(mensajeRespuesta).getText();
 	}
-	public String editarDistrito(String nuevo_nombre) throws Exception {
-		webDriver.findElement(botonDistritos).click();
+	public String editarPartido(String nuevo_nombre) throws Exception {
+		webDriver.findElement(botonPartidos).click();
 		Thread.sleep(2000);
 		webDriver.findElement(botonOrdenar).click();
 		
@@ -50,8 +50,8 @@ public class DistritoPage {
 		Thread.sleep(2000);
 		return webDriver.findElement(mensajeRespuesta).getText();
 	}
-	public String eliminarDistrito() throws Exception {
-		webDriver.findElement(botonDistritos).click();
+	public String eliminarPartido() throws Exception {
+		webDriver.findElement(botonPartidos).click();
 		Thread.sleep(2000);
 		webDriver.findElement(botonOrdenar).click();
 		

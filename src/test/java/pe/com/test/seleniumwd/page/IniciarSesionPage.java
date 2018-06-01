@@ -24,10 +24,10 @@ public class IniciarSesionPage {
 		Thread.sleep(2000);
 		webDriver.findElement(cajaUsuario).clear();
 		webDriver.findElement(cajaUsuario).sendKeys(usuario);
-		Thread.sleep(2000);
+		
 		webDriver.findElement(cajaClave).clear();
 		webDriver.findElement(cajaClave).sendKeys(clave);
-		Thread.sleep(2000);
+		
 		webDriver.findElement(botonIniciarSesion).click();	
 		Thread.sleep(2000);
 	}
