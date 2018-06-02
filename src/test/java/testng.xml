@@ -1,5 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="VisorTestSuite" parallel="false">
+	<test name="RegistroWebDriverTest">
+		<parameter name="navegador" value="ie"/>
+		<parameter name="remoto" value="0"/>
+		<parameter name="rutaInsertarArchivo" value="C:\Data\DataRegistro\DataCrearUsuario.xls"/>
+		<classes>
+			<class name="pe.com.test.seleniumwd.RegistroWebDriverTest" />
+		</classes>
+	</test>
 	<test name="DistritoWebDriverTest">
 		<parameter name="navegador" value="ie"/>
 		<parameter name="remoto" value="0"/>
