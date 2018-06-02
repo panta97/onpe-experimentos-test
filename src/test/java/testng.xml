@@ -20,4 +20,14 @@
 			<class name="pe.com.test.seleniumwd.PartidoWebDriverTest" />
 		</classes>
 	</test>
+	<test name="CandidatoWebDriverTest">
+		<parameter name="navegador" value="ie"/>
+		<parameter name="remoto" value="0"/>
+		<parameter name="rutaInsertarArchivo" value="C:\Data\DataCandidatos\DataInsertarCandidato.xls"/>
+		<parameter name="rutaEditarArchivo" value="C:\Data\DataCandidatos\DataEditarCandidato.xls"/>
+		<parameter name="rutaEliminarrArchivo" value="C:\Data\DataCandidatos\DataEliminarCandidato.xls"/>
+		<classes>
+			<class name="pe.com.test.seleniumwd.CandidatoWebDriverTest" />
+		</classes>
+	</test>
 </suite> 
