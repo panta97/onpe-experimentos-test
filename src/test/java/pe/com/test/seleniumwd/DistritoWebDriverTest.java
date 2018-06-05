@@ -18,7 +18,7 @@ public class DistritoWebDriverTest {
 	private String urlInicial = "http://localhost:8080/OnpeWeb";
 	private DistritoPage distritoPage;
 	private IniciarSesionPage iniciarSesionPage;
-	private String rutaCarpetaError = "C:\\CapturasPantallas\\Categorias";
+	private String rutaCarpetaError = "C:\\CapturasPantallas\\Onpe\\Distrito";
 
 	@BeforeTest
 	@Parameters({ "navegador", "remoto" })

@@ -15,7 +15,7 @@ public class RegistroWebDriverTest {
 	
 	private String urlInicial = "http://localhost:8080/OnpeWeb";
 	private RegistroPage registroPage;
-	private String rutaCarpetaError = "C:\\CapturasPantallas\\Categorias";
+	private String rutaCarpetaError = "C:\\CapturasPantallas\\Onpe\\Registro";
 	
 	@BeforeTest
 	@Parameters({ "navegador", "remoto" })

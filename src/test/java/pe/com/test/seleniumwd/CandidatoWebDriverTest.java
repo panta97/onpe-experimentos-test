@@ -18,7 +18,7 @@ public class CandidatoWebDriverTest {
 	private String urlInicial = "http://localhost:8080/OnpeWeb";
 	private CandidatoPage candidatoPage;
 	private IniciarSesionPage iniciarSesionPage;
-	private String rutaCarpetaError = "C:\\CapturasPantallas\\Categorias";
+	private String rutaCarpetaError = "C:\\CapturasPantallas\\Onpe\\Candidato";
 
 	@BeforeTest
 	@Parameters({ "navegador", "remoto" })

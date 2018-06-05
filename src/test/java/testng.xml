@@ -3,7 +3,7 @@
 	<test name="RegistroWebDriverTest">
 		<parameter name="navegador" value="ie"/>
 		<parameter name="remoto" value="0"/>
-		<parameter name="rutaInsertarArchivo" value="C:\Data\DataRegistro\DataCrearUsuario.xls"/>
+		<parameter name="rutaInsertarArchivo" value="C:\Data\Onpe\DataRegistro\DataCrearUsuario.xls"/>
 		<classes>
 			<class name="pe.com.test.seleniumwd.RegistroWebDriverTest" />
 		</classes>
@@ -11,9 +11,9 @@
 	<test name="DistritoWebDriverTest">
 		<parameter name="navegador" value="ie"/>
 		<parameter name="remoto" value="0"/>
-		<parameter name="rutaInsertarArchivo" value="C:\Data\DataDistritos\DataInsertarDistrito.xls"/>
-		<parameter name="rutaEditarArchivo" value="C:\Data\DataDistritos\DataEditarDistrito.xls"/>
-		<parameter name="rutaEliminarrArchivo" value="C:\Data\DataDistritos\DataEliminarDistrito.xls"/>
+		<parameter name="rutaInsertarArchivo" value="C:\Data\Onpe\DataDistritos\DataInsertarDistrito.xls"/>
+		<parameter name="rutaEditarArchivo" value="C:\Data\Onpe\DataDistritos\DataEditarDistrito.xls"/>
+		<parameter name="rutaEliminarrArchivo" value="C:\Data\Onpe\DataDistritos\DataEliminarDistrito.xls"/>
 		<classes>
 			<class name="pe.com.test.seleniumwd.DistritoWebDriverTest" />
 		</classes>
@@ -21,9 +21,9 @@
 	<test name="PartidoWebDriverTest">
 		<parameter name="navegador" value="ie"/>
 		<parameter name="remoto" value="0"/>
-		<parameter name="rutaInsertarArchivo" value="C:\Data\DataPartidos\DataInsertarPartido.xls"/>
-		<parameter name="rutaEditarArchivo" value="C:\Data\DataPartidos\DataEditarPartido.xls"/>
-		<parameter name="rutaEliminarrArchivo" value="C:\Data\DataPartidos\DataEliminarPartido.xls"/>
+		<parameter name="rutaInsertarArchivo" value="C:\Data\Onpe\DataPartidos\DataInsertarPartido.xls"/>
+		<parameter name="rutaEditarArchivo" value="C:\Data\Onpe\DataPartidos\DataEditarPartido.xls"/>
+		<parameter name="rutaEliminarrArchivo" value="C:\Data\Onpe\DataPartidos\DataEliminarPartido.xls"/>
 		<classes>
 			<class name="pe.com.test.seleniumwd.PartidoWebDriverTest" />
 		</classes>
@@ -31,9 +31,9 @@
 	<test name="CandidatoWebDriverTest">
 		<parameter name="navegador" value="ie"/>
 		<parameter name="remoto" value="0"/>
-		<parameter name="rutaInsertarArchivo" value="C:\Data\DataCandidatos\DataInsertarCandidato.xls"/>
-		<parameter name="rutaEditarArchivo" value="C:\Data\DataCandidatos\DataEditarCandidato.xls"/>
-		<parameter name="rutaEliminarrArchivo" value="C:\Data\DataCandidatos\DataEliminarCandidato.xls"/>
+		<parameter name="rutaInsertarArchivo" value="C:\Data\Onpe\DataCandidatos\DataInsertarCandidato.xls"/>
+		<parameter name="rutaEditarArchivo" value="C:\Data\Onpe\DataCandidatos\DataEditarCandidato.xls"/>
+		<parameter name="rutaEliminarrArchivo" value="C:\Data\Onpe\DataCandidatos\DataEliminarCandidato.xls"/>
 		<classes>
 			<class name="pe.com.test.seleniumwd.CandidatoWebDriverTest" />
 		</classes>
